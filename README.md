@@ -41,3 +41,41 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/itzabhay01/chat_app.git
    cd chat_app
+2. **Install dependencies**:
+
+ Navigate to both the backend and frontend directories and install the required dependencies.
+
+For the backend:
+```bash
+cd backend
+npm install
+```
+
+For the frontend:
+```bash
+cd ../frontend
+npm install
+```
+3. **Configure environment variables**:
+ Create a .env file in the backend directory with the following configuration:
+
+ ```bash
+ MONGO_URL=<Your MongoDB connection string>
+PORT=5000
+JWT_SECRET=<Your secret key>
+```
+
+4. **Run the application**:
+ First, start the backend server:
+ ```bash
+cd backend
+npm start
+ ```
+ Then, start the frontend server:
+ ```bash
+cd frontend
+npm start
+
+ ```
+
+
